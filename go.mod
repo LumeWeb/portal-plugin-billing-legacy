@@ -2,7 +2,7 @@ module go.lumeweb.com/portal-plugin-billing
 
 go 1.23.0
 
-toolchain go1.23.1
+toolchain go1.24.1
 
 require (
 	github.com/Boostport/address v0.11.2
@@ -12,7 +12,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/killbill/kbcli/v3 v3.1.0
 	github.com/samber/lo v1.47.0
-	go.lumeweb.com/httputil v0.0.0-20240907105629-dbffb601f2ab
+	go.lumeweb.com/httputil v0.3.4
 	go.lumeweb.com/portal v0.3.2
 	go.uber.org/zap v1.27.0
 	gorm.io/gorm v1.25.12
@@ -21,6 +21,7 @@ require (
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/AfterShip/email-verifier v1.4.1 // indirect
+	github.com/Oudwins/zog v0.18.4 // indirect
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.32.3 // indirect
